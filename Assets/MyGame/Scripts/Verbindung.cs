@@ -11,6 +11,91 @@ public class Verbindung : MonoBehaviour
 
     void Update()
     {
-    
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            if (Eingabezeilen[0] == true)
+            {
+                Eingabezeilen[0] = false;
+            }
+            else if (Eingabezeilen[0] == false)
+            {
+                Eingabezeilen[0] = true;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            if (Eingabezeilen[1] == true)
+            {
+                Eingabezeilen[1] = false;
+            }
+            else if (Eingabezeilen[1] == false)
+            {
+                Eingabezeilen[1] = true;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            if (Eingabezeilen[2] == true)
+            {
+                Eingabezeilen[2] = false;
+            }
+            else if (Eingabezeilen[2] == false)
+            {
+                Eingabezeilen[2] = true;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            if (Eingabezeilen[3] == true)
+            {
+                Eingabezeilen[3] = false;
+            }
+            else if (Eingabezeilen[3] == false)
+            {
+                Eingabezeilen[3] = true;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            if (Eingabezeilen[4] == true)
+            {
+                Eingabezeilen[4] = false;
+            }
+            else if (Eingabezeilen[4] == false)
+            {
+                Eingabezeilen[4] = true;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            if (Eingabezeilen[5] == true)
+            {
+                Eingabezeilen[5] = false;
+            }
+            else if (Eingabezeilen[5] == false)
+            {
+                Eingabezeilen[5] = true;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            if (Eingabezeilen[6] == true)
+            {
+                Eingabezeilen[6] = false;
+            }
+            else if (Eingabezeilen[6] == false)
+            {
+                Eingabezeilen[6] = true;
+            }
+        }
+
     }
+
+    
 }
